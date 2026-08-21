@@ -1,6 +1,7 @@
-Python
-PyTorch
-CUDA
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.13-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-13.2-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![uv](https://img.shields.io/badge/uv-0.12.4-DE5FE9?style=flat-square&logo=astral&logoColor=white)
 
 # Machine Learning Lab Practicals for On Going Lab (Fall 2026) (CSP DC305)
 
