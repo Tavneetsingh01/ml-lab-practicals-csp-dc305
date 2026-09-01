@@ -1,7 +1,7 @@
-Python
-PyTorch
-CUDA
-uv
+![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.13%2B-EE4C2C?logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-12.6%20%7C%2013.0%20%7C%2013.2-76B900?logo=nvidia&logoColor=white)
+![uv](https://img.shields.io/badge/uv-package%20manager-DE5FE9?logo=uv&logoColor=white)
 
 # Machine Learning Lab Practicals for On Going Lab (Fall 2026) (CSP DC305)
 
@@ -10,7 +10,8 @@ uv
 
 | S. No. | Practical                                                                                                                                                                                | Notebook                                                                                                                                                     | Helper notebook (for understanding)                                                                                                                                |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1      | Representation of data as feature vectors; formulation of the same dataset as a classification and as a regression problem; linear transformations and matrix–vector operations on data. | [feature_vectors_and_linear_algebra_regression_practical.ipynb](practical_notebooks/feature_vectors_and_linear_algebra_regression_explained_in_detail.ipynb) | [Encoding_Techniques_Complete_Guide.ipynb](practical_notebooks/Encoding_Techniques_Complete_Guide.ipynb) (encoding categorical data in machine learning in detail) |
+| 1      | Representation of data as feature vectors; formulation of the same dataset as a classification and as a regression problem; linear transformations and matrix–vector operations on data. | [feature_vectors_and_linear_algebra_regression_practical.ipynb](practical_notebooks/feature_vectors_and_linear_algebra_regression_explained_in_detail.ipynb) | [Encoding_Techniques_Complete_Guide.ipynb](practical_notebooks/Encoding_Techniques_Complete_Guide.ipynb) (encoding categorical data in machine learning in detail)<br>[Encoding_Techniques_Exercise_Solutions.ipynb](practical_notebooks/Encoding_Techniques_Exercise_Solutions.ipynb) (solutions to the exercises in the guide above) |
+| 2      | Probability distributions on data; joint, marginal and conditional probabilities; prior probabilities; Bayes rule and a maximum-posterior classifier.| [probability_bayes_map_classifier.ipynb](practical_notebooks\probability_bayes_map_classifier.ipynb)|
 
 
 > **Helper notebooks** are optional supplementary material linked to a practical for deeper understanding. They are not separate lab practicals.
