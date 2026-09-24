@@ -10,10 +10,10 @@
 
 <table>
 <tr>
-<th width="6%">S. No.</th>
-<th width="58%">Practical</th>
-<th width="18%">Notebook</th>
-<th width="18%">Helper notebook / Exercise solutions</th>
+<th width="50px">S. No.</th>
+<th width="520px">Practical</th>
+<th width="260px">Notebook</th>
+<th width="260px">Helper notebook / Exercise solutions</th>
 </tr>
 <tr>
 <td>1</td>
