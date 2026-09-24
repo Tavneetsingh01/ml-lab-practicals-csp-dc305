@@ -1,7 +1,7 @@
-Python
-PyTorch
-CUDA
-uv
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.13-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-13.2-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![uv](https://img.shields.io/badge/uv-0.12.4-DE5FE9?style=flat-square&logo=astral&logoColor=white)
 
 # Machine Learning Lab Practicals for On Going Lab (Fall 2026) (CSP DC305)
 
@@ -12,6 +12,7 @@ uv
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Representation of data as feature vectors; formulation of the same dataset as a classification and as a regression problem; linear transformations and matrix–vector operations on data. | [feature_vectors_and_linear_algebra_regression_practical.ipynb](practical_notebooks/feature_vectors_and_linear_algebra_regression_explained_in_detail.ipynb) | [Encoding_Techniques_Complete_Guide.ipynb](practical_notebooks/Encoding_Techniques_Complete_Guide.ipynb) (encoding categorical data in machine learning in detail) [Encoding_Techniques_Exercise_Solutions.ipynb](practical_notebooks/Encoding_Techniques_Exercise_Solutions.ipynb) (solutions to the exercises in the guide above) |
 | 2      | Probability distributions on data; joint, marginal and conditional probabilities; prior probabilities; Bayes rule and a maximum-posterior classifier.                                    | [probability_bayes_map_classifier.ipynb](practical_notebooks/probability_bayes_map_classifier.ipynb)                                                         | [Probability_Bayes_MAP_Exercise_Solutions.ipynb](practical_notebooks/Probability_Bayes_MAP_Exercise_Solutions.ipynb) (solutions to the exercises in practical 2)                                                                                                                                                                    |
+| 3      | Implement statistical decision theory and demonstrate the bias–variance trade-off: Generate data from known class-conditional distributions; compute the Bayes optimal decision rule under 0–1 loss, plot the Bayes decision boundary and compute the Bayes error rate, and compare it with the error of trained classifiers. For regression, verify empirically that the predictor minimising the expected squared error is the conditional mean $E[Y\|X]$. Fit models of increasing complexity to repeated resamples of the data, estimate the bias, the variance and the irreducible error of each, and plot bias$^2$, variance and total error against model complexity to exhibit the trade-off. | [statistical_decision_theory_and_bias_variance_tradeoff.ipynb](practical_notebooks/statistical_decision_theory_and_bias_variance_tradeoff.ipynb)             | [statistical_decision_theory_and_bias_variance_tradeoff_exercise_solutions.ipynb](practical_notebooks/statistical_decision_theory_and_bias_variance_tradeoff_exercise_solutions.ipynb) (solutions to the exercises in practical 3)                                                                                                |
 
 
 > **Helper notebooks** are optional supplementary material linked to a practical for deeper understanding. They are not separate lab practicals.
