@@ -29,9 +29,15 @@
 </tr>
 <tr>
 <td>3</td>
-<td><strong>Implement statistical decision theory and demonstrate the bias–variance trade-off:</strong> Generate data from known class-conditional distributions; compute the Bayes optimal decision rule under 0–1 loss, plot the Bayes decision boundary and compute the Bayes error rate, and compare it with the error of trained classifiers. For regression, verify empirically that the predictor minimising the expected squared error is the conditional mean $E[Y|X]$. Fit models of increasing complexity to repeated resamples of the data, estimate the bias, the variance and the irreducible error of each, and plot bias$^2$, variance and total error against model complexity to exhibit the trade-off.</td>
+<td><strong>Implement statistical decision theory and demonstrate the bias–variance trade-off:</strong> Generate data from known class-conditional distributions; compute the Bayes optimal decision rule under 0–1 loss, plot the Bayes decision boundary and compute the Bayes error rate, and compare it with the error of trained classifiers. For regression, verify empirically that the predictor minimising the expected squared error is the conditional mean $E[Y|X]$. Fit models of increasing complexity to repeated resamples of the data, estimate the bias, the variance and the irreducible error of each, and plot bias $^2$, variance and total error against model complexity to exhibit the trade-off.</td>
 <td><a href="practical_notebooks/statistical_decision_theory_and_bias_variance_tradeoff.ipynb">statistical_decision_theory_and_bias_variance_tradeoff.ipynb</a></td>
 <td><a href="practical_notebooks/statistical_decision_theory_and_bias_variance_tradeoff_exercise_solutions.ipynb">statistical_decision_theory_and_bias_variance_tradeoff_exercise_solutions.ipynb</a> (solutions to the exercises in practical 3)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Implement training, validation and testing procedures and demonstrate generalisation and overfitting.</strong> Implement the hold-out method, $k$-fold cross-validation and stratified $k$-fold cross-validation from scratch and verify them against a library implementation. Plot the training error and the validation error against model complexity to exhibit underfitting and overfitting, and identify the point of best generalisation. Plot learning curves of error against training-set size. Select a model and its hyper-parameter using the validation set only, and report the final unbiased error on the untouched test set.</td>
+<td><a href="practical_notebooks/training_validation_testing_generalisation_overfitting.ipynb">training_validation_testing_generalisation_overfitting.ipynb</a></td>
+<td><i>Will be uploaded</i></td>
 </tr>
 </table>
 
@@ -111,7 +117,7 @@ uv add torch torchvision --index-url https://download.pytorch.org/whl/cu132
 #### 5. Install remaining dependencies
 
 ```powershell
-uv add matplotlib seaborn pandas scikit-learn jupyterlab
+uv add matplotlib seaborn pandas scikit-learn statsmodels jupyterlab
 ```
 
 
@@ -190,7 +196,7 @@ uv sync
 #### 5. Install remaining dependencies
 
 ```bash
-uv add matplotlib seaborn pandas scikit-learn jupyterlab
+uv add matplotlib seaborn pandas scikit-learn statsmodels jupyterlab
 ```
 
 
@@ -244,7 +250,7 @@ Or add packages individually:
 
 ```bash
 uv add torch torchvision
-uv add matplotlib seaborn pandas scikit-learn jupyterlab
+uv add matplotlib seaborn pandas scikit-learn statsmodels jupyterlab
 ```
 
 
