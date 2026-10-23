@@ -39,6 +39,12 @@
 <td><a href="practical_notebooks/training_validation_testing_generalisation_overfitting.ipynb">training_validation_testing_generalisation_overfitting.ipynb</a></td>
 <td><i>Will be uploaded</i></td>
 </tr>
+<tr>
+<td>5</td>
+<td><strong>Implement subset selection and shrinkage methods for regression.</strong> Implement best-subset selection and forward and backward stepwise selection, comparing the candidate models using AIC, BIC, Mallows' $C_p$ and adjusted $R^2$. Implement ridge regression in closed form and lasso regression by coordinate descent. Plot the coefficient shrinkage paths against the regularisation parameter, and select the parameter by cross-validation. Compare ordinary least squares, ridge and lasso on a dataset with correlated predictors in terms of test error, coefficient stability and the number of coefficients driven to zero.</td>
+<td><a href="practical_notebooks/subset_selection_shrinkage.ipynb">subset_selection_shrinkage.ipynb</a></td>
+<td><i>Will be uploaded</i></td>
+</tr>
 </table>
 
 
