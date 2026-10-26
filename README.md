@@ -37,13 +37,19 @@
 <td>4</td>
 <td><strong>Implement training, validation and testing procedures and demonstrate generalisation and overfitting.</strong> Implement the hold-out method, $k$-fold cross-validation and stratified $k$-fold cross-validation from scratch and verify them against a library implementation. Plot the training error and the validation error against model complexity to exhibit underfitting and overfitting, and identify the point of best generalisation. Plot learning curves of error against training-set size. Select a model and its hyper-parameter using the validation set only, and report the final unbiased error on the untouched test set.</td>
 <td><a href="practical_notebooks/training_validation_testing_generalisation_overfitting.ipynb">training_validation_testing_generalisation_overfitting.ipynb</a></td>
-<td><i>Will be uploaded</i></td>
+<td><a href="practical_notebooks/training_validation_testing_generalisation_overfitting_Exercise_Solutions.ipynb">training_validation_testing_generalisation_overfitting_Exercise_Solutions</a></td>
 </tr>
 <tr>
 <td>5</td>
 <td><strong>Implement subset selection and shrinkage methods for regression.</strong> Implement best-subset selection and forward and backward stepwise selection, comparing the candidate models using AIC, BIC, Mallows' $C_p$ and adjusted $R^2$. Implement ridge regression in closed form and lasso regression by coordinate descent. Plot the coefficient shrinkage paths against the regularisation parameter, and select the parameter by cross-validation. Compare ordinary least squares, ridge and lasso on a dataset with correlated predictors in terms of test error, coefficient stability and the number of coefficients driven to zero.</td>
 <td><a href="practical_notebooks/subset_selection_shrinkage.ipynb">subset_selection_shrinkage.ipynb</a></td>
-<td><i>Will be uploaded</i></td>
+<td><a href="practical_notebooks/Subset_Selection_Shrinkage_Exercise_Solutions.ipynb">Subset_Selection_Shrinkage_Exercise_Solutions</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Implement Principal Component Analysis and Linear Discriminant Analysis for dimensionality reduction.</strong> Implement PCA from scratch, both by eigen-decomposition of the covariance matrix and by the singular value decomposition; plot the explained-variance (scree) curve and select the number of components; project the data onto the leading components, reconstruct it and measure the reconstruction error. Implement Linear Discriminant Analysis using Fisher's criterion for the two-class case and extend it to the multi-class case. Plot the PCA and the LDA projections of the same dataset, and compare the classification accuracy obtained after each reduction.</td>
+<td><a href="practical_notebooks/PCA_and_LDA_for_dimensionality_reduction.ipynb">PCA_and_LDA_for_dimensionality_reduction.ipynb</a></td>
+<td><i>Will be uploaded soon.</i></td>
 </tr>
 </table>
 
